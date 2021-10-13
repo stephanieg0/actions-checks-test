@@ -19,6 +19,11 @@ jobs:
                 owner: "stephanieg0",
                 repo: "actions-checks-test",
                 status: "in_progress",
-                started_at: new Date()
+                started_at: new Date(),
+                output: {
+                  title: 'Mighty Readme report',
+                  summary: 'There are 0 failures, 2 warnings, and 1 notice.',
+                  text: 'You may have some misspelled words on lines 2 and 4. You also may want to add a section in your README about how to install your app.'
+                }
             });
 
